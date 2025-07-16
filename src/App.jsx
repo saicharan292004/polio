@@ -63,7 +63,7 @@ useEffect(() => {
         <div className="contact-card">
           <img src={cloud} alt="" />
         </div>
-        <div className="contact">
+        <div className="contact" data-aos="fade-right">
           <form action="">
             <p>Email:</p>
             <input type="email" />
