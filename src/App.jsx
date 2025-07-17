@@ -31,11 +31,11 @@ useEffect(() => {
     I’m a passionate <strong>Cloud Computing Enthusiast</strong> ☁️ who thrives on building scalable, secure, and efficient cloud-native solutions.  
   </p>
   <p>
-    I love working with platforms like <strong>AWS</strong>, <strong>Azure</strong>, and <strong>GCP</strong>, 
-    and I’m constantly exploring the future of the cloud — from <em>serverless</em> to <em>edge computing</em>. 🌐
+    I love working with platforms like <strong>AWS</strong>, <strong>Azure</strong>, 
+    and I’m constantly exploring the future of the cloud — from <em>serverless</em> to <em>edge computing</em>.
   </p>
   <p>
-    My mission? <em>To simplify the cloud, one solution at a time.</em> 🚀
+    My mission? <em>To simplify the cloud, one solution at a time.</em> 
   </p>
   <button> Resume</button>
         </div>
