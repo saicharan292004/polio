@@ -5,11 +5,16 @@
  justify-content: center;
  margin-top: 60px;
  
+ 
 
+}
+.cer{
+    padding: 0;
 }
 .cer img{
     margin-top: 20px;
-    width:98vw;
+    width: 97vw;
+    border-radius: 20px;
     height: 560px;
     
 }

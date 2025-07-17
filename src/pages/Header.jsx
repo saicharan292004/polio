@@ -24,9 +24,10 @@ const Header = () => {
 
       <nav className={`nav-menu ${isOpen ? 'active' : ''}`}>
          <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
-        <Link to="/cer" className="nav-link" onClick={closeMenu}>Certication</Link>
+        
         <a href="#skill" className="nav-link" onClick={closeMenu}>Skills</a>
         <a href="#contact" className="nav-link" onClick={closeMenu}>Contact</a>
+        <Link to="/cer" className="nav-link" onClick={closeMenu}>Certication</Link>
       </nav>
 
       <div className={`hamburger ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>

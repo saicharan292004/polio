@@ -5,7 +5,8 @@ import './App.css'
 import Header from './pages/Header'
 import Footer from './pages/Footer'
 import sai from './img/sai.jpg'
-import cloud from './img/cloud.jpg'
+import Connection from './pages/Connection'
+import cloud from './img/cloud1.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -58,12 +59,12 @@ useEffect(() => {
         </div>
 
       </div>
-      <center><h1 id="contact">Contact</h1></center>
+      
       <div className="contact-container">
-        <div className="contact-card">
-          <img src={cloud} alt="" />
+        <div className="contact-card" data-aos="zoom-in">
+          <Connection/>
         </div>
-        <div className="contact" data-aos="fade-right">
+        <div className="contact" data-aos="zoom-in">
           <form action="">
             <p>Email:</p>
             <input type="email" />
