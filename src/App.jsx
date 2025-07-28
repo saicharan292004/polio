@@ -9,6 +9,7 @@ import Connection from './pages/Connection'
 import cloud from './img/cloud1.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import s from './img/sai.pdf'
 
 
 
@@ -37,7 +38,7 @@ useEffect(() => {
   <p>
     My mission? <em>To simplify the cloud, one solution at a time.</em> 
   </p>
-  <button> Resume</button>
+  <button><a href={s} download="resume">Resume</a></button>
         </div>
         <div className="about-img" data-aos="fade-down">
           <img src={sai} alt="" />
