@@ -15,13 +15,13 @@ const ConnectWithMe = () => {
       </div>
 
       <div className="icon-links">
-        <a href="" target="_blank" rel="noreferrer">
+        <a href="https://in.linkedin.com/in/sri-sai-charan-899755245" target="_blank" rel="noreferrer">
           <FaLinkedin className="icon linkedin" />
         </a>
         <a href="" target="_blank" rel="noreferrer">
           <FaGithub className="icon github" />
         </a>
-        <a href="">
+        <a href="mailto:srisaicharancse2004@gmail.com">
           <FaEnvelope className="icon email" />
         </a>
       </div>
